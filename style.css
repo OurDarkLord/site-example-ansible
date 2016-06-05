@@ -1,0 +1,67 @@
+body{
+	background-image: url(6936456-hatsune-miku-artwork.jpg);
+	background-size: 100%;
+	width: 50%;
+}
+
+
+
+div{
+	border: 1px solid black;
+	padding: 15px;
+	background: rgba(255,255,255,0.8);
+	margin: 50px 0px 5px 60px;
+	overflow: auto;
+
+}
+h1{
+	font-size: 2em;
+	font-family: "Lobster";
+	
+}
+h2{
+	font-size: 1.5em;
+	font-family: "Lobster";
+	
+}
+a{
+	
+	text-decoration: none;
+	color: gray;
+
+
+}
+
+.num{
+	font-size: 2.2em;
+	float: left;
+	margin-right: 10px;
+}
+.text{
+	margin-top: 10px;
+}
+#header{
+	transform: rotate(359deg);
+	transition-duration: 2s;
+}
+#header:hover{
+	transform: rotate(0deg);
+}
+#voice{
+	transform: rotate(1deg);
+}
+#voice:hover{
+	transform: rotate(0deg);
+}
+#name{
+	transform: rotate(359deg);
+}
+#name:hover{
+	transform: rotate(0deg);
+}
+img{
+	clear: left;
+	float: left;
+	height: 160px;
+	margin: 10px 10px 1px 0px;
+}
